@@ -81,7 +81,7 @@ document.querySelector('.btn--new').addEventListener('click', function () {
   players_total_score = [0, 0]; // Reset the total scores
   dice_roll = 0; // Reset the dice roll
   
-  dice.classSet.add('hidden');//remove the dice image
+  dice.classList.add('hidden');//remove the dice image
 
   document.getElementById(`current--${0}`).textContent = 0; // Reset current score display for player 0
   document.getElementById(`current--${1}`).textContent = 0; // Reset current score display for player 1
